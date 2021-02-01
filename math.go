@@ -5,12 +5,12 @@ import (
 )
 
 func main() {
-	res := Sum(1, 2)
+	res := sum(1, 2)
 
 	fmt.Printf("%d\n", res)
 }
 
 // Sum Get two numbers an return sum
-func Sum(a int, b int) int {
+func sum(a int, b int) int {
 	return a + b
 }
